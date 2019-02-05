@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.qainfotech.junit.ArrayExample.ConsecutiveTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec <<< FAILURE! - in com.qainfotech.junit.ArrayExample.ConsecutiveTest
+TestArrayInteger(com.qainfotech.junit.ArrayExample.ConsecutiveTest)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<String should only contain alphabets> but was:<[1992, 112]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.qainfotech.junit.ArrayExample.ConsecutiveTest.TestArrayInteger(ConsecutiveTest.java:41)
+
